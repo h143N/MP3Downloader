@@ -20,7 +20,7 @@ if os.path.exists(datafolder) is False or os.path.exists(ffmpegfolder) is False:
 if os.path.exists(ffmpegcheck) is True and os.path.exists(ffprobecheck) is True:
     print("\nThe FFmpeg install has been found.\n")
 else:
-    print('\nThe FFmpeg install hasn\'t been found, please download FFmpeg and place ffmpeg.exe and ffprobe.exe inside the "\.data\.ffmpeg" path.\n')
+    print('\nThe FFmpeg install hasn\'t been found, please download FFmpeg and place ffmpeg.exe and ffprobe.exe inside the "\\.data\\.ffmpeg" path.\n')
 
 os.chdir(datafolder)
 
